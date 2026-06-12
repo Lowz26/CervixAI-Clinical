@@ -1,4 +1,7 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/CervixAI"
+  "outputDirectory": "dist/CervixAI/browser",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
