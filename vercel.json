@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd CervixAI && npm run build",
+  "outputDirectory": "CervixAI/dist/cervix-ai/browser",
+  "framework": "angular"
+}
