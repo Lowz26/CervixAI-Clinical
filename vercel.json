@@ -1,12 +1,21 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist/CervixAI/browser",
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
+  "version": 3,
+  "builds": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist/CervixAI/browser"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/.*",
+      "dest": "/index.html"
     }
   ]
 }
