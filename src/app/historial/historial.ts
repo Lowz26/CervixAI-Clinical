@@ -6,7 +6,7 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [RouterLink],
   templateUrl: './historial.html',
-  styleUrl: './historial.css'
+  styleUrls: ['./historial.css']
 })
 export class HistorialComponent {
 }

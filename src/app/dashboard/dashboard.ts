@@ -6,7 +6,7 @@ import { RouterLink } from '@angular/router'; // <-- Importamos el enrutador
   standalone: true,
   imports: [RouterLink], // <-- Lo agregamos aquí
   templateUrl: './dashboard.html',
-  styleUrl: './dashboard.css'
+  styleUrls: ['./dashboard.css']
 })
 export class DashboardComponent {
 }
