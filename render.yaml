@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: cervixai-clinical
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run serve:dist
+    envVars:
+      - key: NODE_ENV
+        value: production
+    routes:
+      - path: /api/*
+        matchType: prefix
+        dest: /api
+      - path: /*
+        matchType: prefix
+        dest: /index.html
