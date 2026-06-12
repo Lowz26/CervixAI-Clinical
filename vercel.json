@@ -2,5 +2,11 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist/CervixAI/browser",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
