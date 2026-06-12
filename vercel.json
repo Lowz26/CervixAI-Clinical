@@ -1,3 +1,5 @@
 {
-  "buildOutputDirectory": "CervixAI/dist/cervix-ai/browser"
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/cervix-ai/browser",
+  "framework": "angular"
 }
