@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/CervixAI",
+  "outputDirectory": "dist/CervixAI/browser",
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
