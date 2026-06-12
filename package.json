@@ -1,0 +1,9 @@
+{
+  "name": "cervixai-clinical",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd CervixAI && npm install && npm run build",
+    "start": "cd CervixAI && npm start"
+  }
+}

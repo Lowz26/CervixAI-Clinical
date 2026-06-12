@@ -1,6 +1,3 @@
 {
-  "installCommand": "cd CervixAI && npm install",
-  "buildCommand": "cd CervixAI && npm run build",
-  "outputDirectory": "CervixAI/dist/cervix-ai/browser",
-  "framework": "angular"
+  "buildOutputDirectory": "CervixAI/dist/cervix-ai/browser"
 }
